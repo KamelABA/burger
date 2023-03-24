@@ -1,0 +1,174 @@
+body{
+    background-color: rgb(52, 50, 50);
+}
+#img{
+    width: 150px;
+}
+#box{
+    position: relative;
+    border: 5px solid rgb(47, 255, 151);
+    height: 300px;
+    width: 250px;
+    margin: auto;
+    margin-top: 150px; 
+}
+#head{
+    position: relative;
+    background-color: rgba(47, 255, 151);
+    height: 40px;
+    margin-top: 0%;
+    margin: auto;
+    font-size: 30px;
+    padding-left: 75px;
+    color:black;
+}
+#burger{
+    position: relative;
+    margin-top: 10px;
+    margin-left: 45px;
+    border: solid;
+    width: 150px;
+}
+#buy{
+    margin-top: 30px;
+    margin-left: 60px;
+    background-color: rgba(47, 255, 151);;
+    font-size: 25px;
+}
+#sell{
+    margin-top: 30px;
+    background-color: rgba(47, 255, 151);;
+    font-size: 25px;
+}
+#buy:hover,#sell:hover{
+    background-color: rgba(7, 161, 151, 0.614);
+}
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+   margin-top: 30px;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 250px;
+    height: 250px;
+  }
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  #ok,#sellConfirm{
+    position: relative;
+    margin-top: 30px;
+    margin-left: 30%;
+    width: 100px;
+    height: 40px;
+    background-color: aquamarine;
+    cursor: pointer;
+  }
+  #ok:hover,#sellConfirm:hover{
+    background-color: rgb(6, 243, 113);
+  }
+ #plus,input,#minus,#sell-count{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  margin-left: 160px;
+  margin-top: 30px;
+  float: right;
+  }
+  #plus,#minus{
+    font-size: 20px;
+  }
+  input,#sell-count{
+    margin-left: 90px;
+    position: absolute;
+    width: 50px;
+    height: 25px;
+    float: left;
+  }
+  .buy-count,.sell-count-text{
+    font-size: 30px;
+    margin-top: 43px;
+    margin-left: 20px;
+  }
+.nobkg{ 
+  position: fixed;
+  width: 50px;
+  height: 40px;
+  border-radius: 50% ;
+  top: 10px;
+  right: 45px;
+  float: left; 
+}
+#cnn{
+  position: absolute;
+  top: 0;
+  right: 10px;
+  color: #fefefe;
+  margin-top: 10px;
+  font-size: 35px;
+}
+.head{
+  top: 0;
+  margin: auto;
+  right: 0;
+  margin-right: 0;
+  width: 100%;
+}
+#sellx {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-sell {
+  background-color: #fefefe;
+  margin: auto;
+ margin-top: 30px;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 250px;
+  height: 250px;
+}
+.sClose {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.sClose:hover,
+.sClose:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}

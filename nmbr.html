@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="nmbr.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BurgerCheif</title>
+  <link rel="shortcut icon" href="burger.jpg">
+</head>
+
+<body>
+  <div class="head">
+    <img src="images.jpg" class="nobkg">
+    <p id="cnn">0</p>
+  </div>
+  <div id="box">
+    <p id="head">Burger</p>
+    <div id="burger">
+      <img src="burger.jpg" alt="burger" id="img">
+    </div>
+    <div>
+      <button  id="buy" data-modal="myModal">Buy</button>
+      <button  id="sell" data-modal="sellx">Sell</button>
+      <div id="myModal" class="modal" style="display: none;">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p>Do you wanna buy some burger</p>
+          <p>how many burger do you want</p>
+          <button id="plus">+</button>
+          <input type="number" class="count" value="0">
+          <p class="buy-count">Buy</p>
+          <button id="ok">Confirm</button>
+        </div>
+      </div>
+      <div id="sellx" class="modal" style="display: none;">
+        <div class="modal-sell">
+          <span class="sClose">&times;</span>
+          <p>Do you want to sell some burger?</p>
+          <p>How many burger do you want to sell?</p>
+          <button id="minus">-</button>
+          <input type="number" class="sell-count" value="0">
+          <p class="sell-count-text">Sell</p>
+          <button id="sellConfirm">Confirm</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <script src="nmbr.js"></script>
+
+</body>
+
+</html>
